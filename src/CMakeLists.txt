@@ -1,4 +1,4 @@
-find_package( PythonInterp REQUIRED )
+find_package( PythonInterp 3.5 REQUIRED )
 find_package( OpenMP REQUIRED )
 
 
