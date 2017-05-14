@@ -37,7 +37,7 @@ set_target_properties( lmbspecialops PROPERTIES DEBUG_POSTFIX "_debug" )
 set_target_properties( lmbspecialops PROPERTIES COMPILE_FLAGS "${OpenMP_CXX_FLAGS}" )
 set_target_properties( lmbspecialops PROPERTIES LINK_FLAGS "${OpenMP_CXX_FLAGS}" )
 # use old ABI with gcc 5.x
-set_target_properties( lmbspecialops PROPERTIES COMPILE_DEFINITIONS "_GLIBCXX_USE_CXX11_ABI=0" )
+set_target_properties( lmbspecialops PROPERTIES COMPILE_DEFINITIONS "_GLIBCXX_USE_CXX11_ABI=1" )
 # enable c++11
 set_target_properties( lmbspecialops PROPERTIES 
                 CXX_STANDARD 11 
